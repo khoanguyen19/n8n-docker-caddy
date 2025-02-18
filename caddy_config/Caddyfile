@@ -1,5 +1,10 @@
-n8n.<domain>.<suffix> {
-    reverse_proxy n8n:5678 {
-      flush_interval -1
+{
+    admin off
+    auto_https off
+}
+
+http://automation.dataops.vn {
+    reverse_proxy http://n8n:5678 {
+        flush_interval -1
     }
 }

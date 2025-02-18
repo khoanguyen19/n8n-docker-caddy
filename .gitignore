@@ -1,0 +1,9 @@
+.env
+/n8n/backup/*
+/shared/*
+caddy_data/
+n8n_storage/
+postgres_storage/
+.DS_Store
+*.log
+/caddy_config/caddy
